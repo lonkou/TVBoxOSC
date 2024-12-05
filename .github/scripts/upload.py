@@ -2,7 +2,7 @@ import os
 import json
 import requests
 
-apiAddress = "http://127.0.0.1:8081/"
+apiAddress = "https://github.com/lonkou/SMAPILoader"
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
 CHAT_ID = os.environ.get("CHAT_ID", "")
 urlPrefix = apiAddress + "bot" + TELEGRAM_TOKEN
